@@ -135,16 +135,21 @@ graph TD;
 
 ### 2. Prototype: AI-Generated UI Mockups
 
-Instead of using a traditional design tool, we defined a series of detailed prompts to generate our UI prototype using an AI image generator. This represents a modern, rapid-prototyping approach.
+Instead of using a traditional design tool, we defined a series of detailed prompts to generate our UI prototype using an AI image generator. This represents a modern, rapid-prototyping approach. After an initial version, we refined the prompts to ensure maximum clarity and consistency.
 
-**Key Screen Prompts:**
+**Final UI Prompts:**
 
-- **Image 1: Onboarding Screen:** A clean, welcoming screen with 'Sign Up' and 'Log In' options.
-- **Image 2: Profile Screen:** A screen displaying the user's key professional information, including skills and experience.
-- **Image 3: Job Swiping Screen:** The main interface featuring a swipeable job card with mandatory salary information.
-- **Image 4: Match Notification Screen:** A celebratory screen appearing when both a candidate and a recruiter show mutual interest.
-- **Image 5: Chat List Screen:** A list of all active conversations with potential employers.
-- **Image 6: Chat Screen:** The interface for direct messaging between the candidate and the recruiter.
+- **Image 1: Onboarding Screen:** "Create a high-fidelity UI/UX mockup for the primary onboarding screen of 'MatchWork'. The design should be exceptionally clean and minimalist, using a deep navy blue (#191970) background, white text, and a vibrant coral (#FF6F61) accent for buttons. The screen must feature the logo, a headline ('Your Next Career Move Is a Swipe Away.'), and 'Create Account' / 'Log In' buttons."
+
+- **Image 2: Profile Screen:** "Create a high-fidelity UI/UX mockup for a user's profile screen in 'MatchWork', maintaining the navy blue theme. The layout should be organized with cards for 'Summary', 'Experience', and 'Skills'. The skills should be displayed as pill-shaped tags in the coral accent color."
+
+- **Image 3: Job Swiping Screen:** "Create a high-fidelity UI/UX mockup for the main job discovery screen of 'MatchWork', with a deep navy blue (#191970) background. The focus is a central, swipeable card with a light background, displaying the job title, company, location, and a prominent, can't-miss salary range."
+
+- **Image 4: Match Notification Screen:** "Create a celebratory 'It's a Match!' modal overlay. The app background should be blurred. The modal should be joyful, featuring the user and company pictures, a connecting graphic, and a primary call-to-action button: 'Start a Conversation'."
+
+- **Image 5: Messages Screen:** "Create a high-fidelity UI/UX mockup for the 'Messages' list screen, maintaining the navy blue (#191970) theme. The screen should feature a list of conversations on light-colored cards. Unread messages should be indicated with a small coral-colored dot."
+
+- **Image 6: Chat Screen:** "Create a high-fidelity UI/UX mockup for an individual chat screen, consistent with the navy blue theme. Received messages should be in left-aligned gray bubbles, and sent messages should be in right-aligned coral-colored bubbles."
 
 ### 3. Test: User Feedback Plan
 
@@ -165,3 +170,64 @@ big brain say "design sprint". grug say "make pictures, show people".
 we make plan for pictures. sign up screen, profile screen, swipe screen, match screen, chat screen. simple flow. grug make prompts for AI to draw pictures for us. fast. cheap.
 
 then we show pictures to other grugs. ask "you like?" "this make sense?" "salary number good?". if they say yes, we build. if they say no, we change pictures. no waste time building wrong thing. simple. smart.
+
+---
+
+## Step 5: Choose an Innovative Framework
+
+For the development of the "MatchWork" prototype, we have selected **NEXT.js** as our primary technology framework.
+
+### 1. What is NEXT.js?
+
+NEXT.js is a popular, open-source React framework for building full-stack web applications. It provides a robust structure for creating both the user interface (frontend) and the server-side logic (backend) in a single, cohesive project.
+
+### 2. Why is NEXT.js the best fit for MatchWork?
+
+- **Full-Stack Capability:** MatchWork is a dynamic application that requires a database, user authentication, and a real-time messaging API. NEXT.js allows us to build these backend features as API Routes directly within our project, which simplifies development and deployment immensely.
+- **Performance and User Experience:** It enables various rendering strategies (Server-Side Rendering, Static Site Generation) that allow us to optimize the performance of different parts of our app, ensuring a fast and smooth experience for the user.
+- **Easy Deployment:** It is designed for seamless, zero-configuration deployment on platforms like **Vercel**, which aligns perfectly with our Business Model Canvas decision to use free-tier hosting solutions.
+- **Rich Ecosystem:** As it's built on React, we gain access to the vast ecosystem of libraries and tools available for React, accelerating development for features like the card swipe mechanic or the chat interface.
+
+### 3. Comparison with Other Options
+
+- **Gatsby:** Is more specialized for static, content-heavy websites and is less suitable for a highly interactive application like MatchWork.
+- **Remix:** While a powerful alternative, NEXT.js has a larger community and more extensive documentation, making it a more reliable choice for this project.
+- **Blitz/Redwood:** These are more opinionated frameworks. NEXT.js offers greater flexibility, which is beneficial for a project that might evolve.
+
+### Grug Summary
+
+need choose tool to build app. many tool. much confusion.
+
+we choose NEXT.js. why? it let us build pretty front part and smart back part in same place. less mess. it work good with Vercel, the free server place. it fast. many other grugs use it, so easy find help if get stuck.
+
+other tools ok, but NEXT.js is good, strong club for this job. not too simple, not too complex. just right.
+
+---
+
+## Step 6: Evaluate Your Innovation
+
+To evaluate the innovative aspects of "MatchWork" and understand its position in the broader market, we have chosen to conduct a **PESTEL Analysis**.
+
+### PESTEL Analysis for MatchWork
+
+PESTEL is an acronym for **P**olitical, **E**conomic, **S**ocial, **T**echnological, **E**nvironmental, and **L**egal factors.
+
+- **Political:** Government employment initiatives and, most importantly, data privacy regulations (like GDPR) are key political factors that shape the app's development and data handling requirements.
+
+- **Economic:** The platform's value proposition is strong in any economy. In a good economy, it helps recruiters find scarce talent. In a bad economy, it helps job seekers stand out. The rise of the remote work economy is a major tailwind for the project.
+
+- **Social:** The app directly caters to modern social trends, such as the demand for transparency (mandatory salary) and flexibility (remote work). Its mobile-first, swipe-based interface aligns with the digital habits of younger generations.
+
+- **Technological:** Our core innovation is technological. We leverage **AI** for smarter matching and rely on modern **Cloud Computing** platforms (Vercel, etc.) to make the project feasible at zero cost.
+
+- **Environmental:** By being a fully digital platform and facilitating remote work, MatchWork offers minor but positive environmental benefits by reducing paper waste and commuting.
+
+- **Legal:** The platform is built around the growing legal trend of **salary transparency laws**. By making this a mandatory feature, we are not only ethically aligned but also legally prepared for future regulations. We must also ensure our matching algorithm is designed to comply with Equal Opportunity Employment laws.
+
+### Grug Summary
+
+big world outside our app. PESTEL help us look at it.
+
+world have rules (Political, Legal). world have money situation (Economic). world have people trends (Social). world have new tools (Technological).
+
+our app, MatchWork, fits good in big world. it follow new laws about salary. it work good if economy good or bad. people want easy, phone-first job hunt. we use new AI tool. this is good plan. we not fighting the world, we work with it.
