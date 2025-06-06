@@ -19,9 +19,10 @@ We will proceed through the project one step at a time. I will take a proactive 
 
 A crucial part of this project is documenting the process and results.
 
--   **File:** All documentation will be written to [documentation.md](mdc:documentation.md) AND you should create a corresponding file for each task. example: `@<taskname>.md`
+-   **File:** All documentation will be written to a main `documentation.md` file. For each step, a corresponding separate file will also be created (e.g., `1-idea.md`, `2-business-model-canvas.md`, etc.).
 -   **Format:** The documentation will be in Markdown format.
--   **Process:** After we complete each step from the project guide, I will summarize our work and append it to the documentation file. I will create a clear heading for each step.
+-   **Process:** After we complete each step from the project guide, I will summarize our work and append it to the main documentation file and create the step-specific file.
+-   **Grug Summary:** At the end of each documented step, I will add a short, simple summary inspired by the "Grug Brained Developer" philosophy, focusing on simplicity over complexity.
 
 ## Example Workflow
 
