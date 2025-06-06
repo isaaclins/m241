@@ -19,16 +19,21 @@ graph TD;
 
 ### 2. Prototype: AI-Generated UI Mockups
 
-Instead of using a traditional design tool, we defined a series of detailed prompts to generate our UI prototype using an AI image generator. This represents a modern, rapid-prototyping approach.
+Instead of using a traditional design tool, we defined a series of detailed prompts to generate our UI prototype using an AI image generator. This represents a modern, rapid-prototyping approach. After an initial version, we refined the prompts to ensure maximum clarity and consistency.
 
-**Key Screen Prompts:**
+**Final UI Prompts:**
 
-- **Image 1: Onboarding Screen:** A clean, welcoming screen with 'Sign Up' and 'Log In' options.
-- **Image 2: Profile Screen:** A screen displaying the user's key professional information, including skills and experience.
-- **Image 3: Job Swiping Screen:** The main interface featuring a swipeable job card with mandatory salary information.
-- **Image 4: Match Notification Screen:** A celebratory screen appearing when both a candidate and a recruiter show mutual interest.
-- **Image 5: Chat List Screen:** A list of all active conversations with potential employers.
-- **Image 6: Chat Screen:** The interface for direct messaging between the candidate and the recruiter.
+- **Image 1: Onboarding Screen:** "Create a high-fidelity UI/UX mockup for the primary onboarding screen of 'MatchWork'. The design should be exceptionally clean and minimalist, using a deep navy blue (#191970) background, white text, and a vibrant coral (#FF6F61) accent for buttons. The screen must feature the logo, a headline ('Your Next Career Move Is a Swipe Away.'), and 'Create Account' / 'Log In' buttons."
+
+- **Image 2: Profile Screen:** "Create a high-fidelity UI/UX mockup for a user's profile screen in 'MatchWork', maintaining the navy blue theme. The layout should be organized with cards for 'Summary', 'Experience', and 'Skills'. The skills should be displayed as pill-shaped tags in the coral accent color."
+
+- **Image 3: Job Swiping Screen:** "Create a high-fidelity UI/UX mockup for the main job discovery screen of 'MatchWork', with a deep navy blue (#191970) background. The focus is a central, swipeable card with a light background, displaying the job title, company, location, and a prominent, can't-miss salary range."
+
+- **Image 4: Match Notification Screen:** "Create a celebratory 'It's a Match!' modal overlay. The app background should be blurred. The modal should be joyful, featuring the user and company pictures, a connecting graphic, and a primary call-to-action button: 'Start a Conversation'."
+
+- **Image 5: Messages Screen:** "Create a high-fidelity UI/UX mockup for the 'Messages' list screen, maintaining the navy blue (#191970) theme. The screen should feature a list of conversations on light-colored cards. Unread messages should be indicated with a small coral-colored dot."
+
+- **Image 6: Chat Screen:** "Create a high-fidelity UI/UX mockup for an individual chat screen, consistent with the navy blue theme. Received messages should be in left-aligned gray bubbles, and sent messages should be in right-aligned coral-colored bubbles."
 
 ### 3. Test: User Feedback Plan
 
