@@ -231,3 +231,164 @@ big world outside our app. PESTEL help us look at it.
 world have rules (Political, Legal). world have money situation (Economic). world have people trends (Social). world have new tools (Technological).
 
 our app, MatchWork, fits good in big world. it follow new laws about salary. it work good if economy good or bad. people want easy, phone-first job hunt. we use new AI tool. this is good plan. we not fighting the world, we work with it.
+
+---
+
+## Step 7: Stakeholder Analysis
+
+To understand the key players involved in our project, we conducted a stakeholder analysis, identifying each group and their primary interests.
+
+1.  **Job Seekers**
+
+    - **Description:** Individuals looking for new employment. They are a primary user group.
+    - **Interests:** Finding relevant jobs quickly, salary transparency, a simple user experience, and data privacy.
+    - **Influence:** High. Their adoption is critical for attracting recruiters.
+
+2.  **Businesses / Recruiters**
+
+    - **Description:** Companies and HR departments seeking to hire talent. They are our other primary user group.
+    - **Interests:** Finding qualified candidates efficiently, reducing hiring costs, and accessing a good talent pool.
+    - **Influence:** High. Their job postings provide the core value to job seekers.
+
+3.  **Project Team (Us)**
+
+    - **Description:** The students developing the project.
+    - **Interests:** Successfully completing the M241 module, learning new technologies, and achieving a good grade.
+    - **Influence:** High. We have direct control over the project's execution.
+
+4.  **University / Educators**
+
+    - **Description:** The educational institution and instructors overseeing the project.
+    - **Interests:** Ensuring students apply course concepts, academic integrity, and innovative outcomes.
+    - **Influence:** Medium. They define the project requirements and are responsible for grading.
+
+5.  **Hypothetical Investors (Future)**
+    - **Description:** Potential future investors who might fund the platform.
+    - **Interests:** Scalability, user growth, profitability, and a strong competitive advantage.
+    - **Influence:** Low (at this stage), but important for long-term vision.
+
+### Grug Summary
+
+who care about app? many people.
+
+- **Job grugs:** want find new tribe, want know shiney rock count. very important.
+- **Recruiter grugs:** want find good job grugs for their tribe. also very important.
+- **Us grugs:** want good grade for project.
+- **Professor grug:** want us to learn and not make mess.
+- **Money grugs (maybe later):** want app to make many shiney rocks.
+
+we must make all grugs happy. but mostly job grugs and recruiter grugs. if they happy, app is good.
+
+---
+
+## Step 8: Market Research
+
+To validate our assumptions and understand the competitive landscape, we have developed a plan for primary and secondary market research. This plan outlines the methods we would use if this were a commercial project.
+
+### 1. Primary Research (`Primärforschung`)
+
+- **Method:** Online Survey.
+- **Target Audience:** Students in tech-related fields and recent graduates.
+- **Justification:** A survey is a cost-effective method to gather direct feedback on our core concepts. We would use a free tool like Google Forms.
+- **Key Survey Questions We Would Ask:**
+  1.  How frustrating do you find the current job application process? (Scale 1-10)
+  2.  What is your biggest frustration with platforms like LinkedIn or Indeed?
+  3.  How important is seeing a salary range before applying? (Scale: Not important to Essential)
+  4.  Does a "Tinder-like" swipe interface for jobs sound appealing? (Yes/No/Maybe)
+  5.  What is the one feature you wish job-finding apps had?
+
+### 2. Secondary Research (`Sekundärforschung`)
+
+- **Method:** Competitor and Online Research.
+- **Justification:** This allows us to learn from existing products and market trends without reinventing the wheel.
+- **Research Targets:**
+  1.  **Direct Competitors:** Analyze apps like "Hired" and "Bumble Bizz" to understand their feature set, pricing, and user feedback.
+  2.  **Indirect Competitors:** Study market leaders like LinkedIn to identify their weaknesses (e.g., application "black hole," lack of transparency) that MatchWork can solve.
+  3.  **Market Trends:** Research articles on "recruitment technology," "the future of work," and "Gen Z workplace expectations" to confirm our strategic direction.
+
+### Grug Summary
+
+we not build in dark. we open eyes first. that is research.
+
+- **Primary Research:** we make simple questions. ask other student grugs: "you hate job hunt? what part bad? you want salary number? you like swipey app?" their answers tell us if idea is good.
+- **Secondary Research:** we look at other job apps. what they do good? what they do bad? we learn from their mistakes. we also read what big brains say about future of jobs.
+
+this way, we build smart thing, not dumb thing.
+
+---
+
+## Step 9: Measure Success (`Erfolgsmessung`)
+
+To measure the success of the MatchWork platform, we have chosen the method of tracking **Key Performance Indicators (KPIs)**. These metrics provide a clear, data-driven view of our performance against key objectives.
+
+### Key Performance Indicators for MatchWork
+
+We will group our KPIs into two main categories: **User Engagement** and **Platform Health**.
+
+**1. User Engagement KPIs (Are people actively using the app?)**
+
+- **Daily/Monthly Active Users (DAU/MAU):** Measures the overall size and growth of our user base.
+- **Swipes per User:** Tracks engagement with the core swipe mechanic.
+- **Match Rate:** The percentage of right swipes that result in a mutual match. This is a key indicator of the AI algorithm's effectiveness.
+- **Messages per Match:** Measures how many matches lead to a real conversation, indicating the quality of the matches.
+
+**2. Platform Health KPIs (Is the platform sustainable and effective?)**
+
+- **Job Seeker to Recruiter Ratio:** A critical metric for the health of our two-sided marketplace.
+- **Time to First Match:** How long it takes a new user to get their first match. A shorter time equals a better initial experience.
+- **User Retention Rate:** The percentage of users who return to the app over time. This is a strong indicator of product-market fit.
+- **(Hypothetical) Conversion Rate:** In a real-world scenario, this would track the percentage of free recruiter accounts that upgrade to a paid plan.
+
+### Grug Summary
+
+how we know if app good? we look at numbers. numbers not lie.
+
+- **Are people using it?** we count how many grugs use app each day. we count how many times they swipe. we count how many matches they get. more is good.
+- **Is app working?** we check if enough jobs for job grugs. we check if users come back tomorrow. if they come back, app is not bad.
+
+if numbers go up, we do good job. if numbers go down, we do bad job and need fix. simple.
+
+---
+
+## Step 10: Risk Analysis (`Risiko`)
+
+To analyze the risks associated with the MatchWork project, we have conducted a **SWOT Analysis**, which identifies the project's **S**trengths, **W**eaknesses, **O**pportunities, and **T**hreats.
+
+### SWOT Analysis for MatchWork
+
+**Strengths (Internal, Positive)**
+
+- **Innovative Core Mechanic:** The swipe-based, mutual-match system is intuitive and engaging.
+- **Strong Value Proposition:** Mandatory salary transparency directly addresses a major user pain point.
+- **AI-Powered Matching:** Provides a significant technological advantage.
+- **Zero-Cost Structure:** No financial pressures as an academic project.
+
+**Weaknesses (Internal, Negative)**
+
+- **The "Chicken-and-Egg" Problem:** Difficulty in attracting both job seekers and recruiters at the same time.
+- **Limited Resources:** As a student project, we have no marketing budget and limited time.
+- **Technical Complexity:** The AI matching algorithm is complex and critical to success.
+
+**Opportunities (External, Positive)**
+
+- **Market Dissatisfaction:** Growing frustration with existing, impersonal job platforms.
+- **Legal & Social Trends:** The push for salary transparency and remote work are major tailwinds.
+- **Partnerships:** Potential to partner with universities and tech communities for early user acquisition.
+
+**Threats (External, Negative)**
+
+- **Intense Competition:** The job market is crowded with established players like LinkedIn.
+- **Data Security:** A potential data breach would be catastrophic for user trust.
+- **Algorithm Bias:** The risk that the AI could perpetuate unfair biases in hiring.
+- **Feature Replication:** Large competitors could easily copy our successful features.
+
+### Grug Summary
+
+what can go good? what can go wrong? SWOT help think.
+
+- **Strengths (we are strong):** app idea is good, simple, smart. not cost shiney rocks.
+- **Weaknesses (we are weak):** need both job grugs and recruiter grugs at same time. hard. AI is hard to make smart.
+- **Opportunities (world help us):** other job apps are bad, people want better. new laws help us.
+- **Threats (world hurt us):** big monster apps can crush us. must keep user data safe or big trouble. AI can be stupid and unfair if not careful.
+
+know what can go wrong is first step to not letting it go wrong. be careful, but be brave.
